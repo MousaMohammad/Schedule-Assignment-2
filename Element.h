@@ -1,6 +1,8 @@
 #pragma once
+#include <iostream>
 #include"Alchemy.h"
 #include<string>
+using namespace std;
 
 class Element
 {

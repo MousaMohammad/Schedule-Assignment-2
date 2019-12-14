@@ -1,6 +1,7 @@
 #pragma once
 #include "Rule.h"
 #include "Alchemy.h"
+#include <iostream>
 
 class HeatRule : public Rule
 {

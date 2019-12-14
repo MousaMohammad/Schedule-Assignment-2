@@ -3,10 +3,11 @@
 #include "Alchemy.h"
 #include "MixRule.h"
 #include "HeatRule.h"
+using namespace std;
 
 int main()
 {
-	/*
+	
 	const int ruleCount = 9;
 	Alchemy alchemy(ruleCount);
 	alchemy[0] = new MixRule(alchemy["iron"], alchemy["air"], alchemy["rust"]);
@@ -28,7 +29,7 @@ int main()
 	}
 
 	for (int index = 0; index < ruleCount; index++) delete alchemy[index];
-	*/
+	
 	std::cout << "Hello world";
 	return 0;
 }

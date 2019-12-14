@@ -1,5 +1,6 @@
 #pragma once
 #include"Rule.h"
+#include <iostream>
 
 class Alchemy
 {
