@@ -28,15 +28,13 @@ Action* readAction()
 		cin >> ml;
 		char act;
 		read = new Sequence(ml);
-		Sequence action2(ml);
 		
 		for (int i = 0; i < ml; i++)
 		{
-			Action* pAct = readAction();
-			action2.operator<<(pAct);
+			*(dynamic_cast<Sequence*>(read)) << readAction();
 			
 		}
-		cout << action2;
+		
 		return read;
 
 	}

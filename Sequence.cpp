@@ -35,7 +35,7 @@ void Sequence::print(ostream& out)const
 		actions[i]->print(out);
 
 	}
-	out << length;
+	out << length<<endl;
 }
 
 Sequence::~Sequence()
